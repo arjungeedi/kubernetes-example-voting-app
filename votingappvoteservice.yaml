@@ -5,6 +5,7 @@ metadata:
   labels: 
     app: voting-app
 spec:
+  type: NodePort
   selector:
     app: voting-app
   ports:
